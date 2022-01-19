@@ -1,41 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
 body{
-    background-image: url('image/back-pool.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  
-  .header{
+  background-image: url('static/images/house-to-let-5.jpg'), url('static/images/house-to-let-2.jpg');
+  background-repeat: no-repeat;
+  background-size: 1600px 900px;
+  background-attachment: fixed;
+}
+.header{
+      padding: 20px;
       text-align: center;
+      color: rgba(11, 11, 194, 0.774);
+      font-size: 60px;
+      font-family: 'Libre Baskerville', serif;
   }
   
-  ul#list-nav {
+ul#list-nav {
       list-style:none;
       margin:20px;
       padding:0;
       width:525px
     }
     
-    ul#list-nav li {
+ul#list-nav li {
       display:inline
     }
     
-    ul#list-nav li a {
+ul#list-nav li a {
       text-decoration:none;
       padding:5px 0;
       width:100px;
-      background:#485e49;
+      background:#0e008d;
       color:#eee;
       float:left;
       text-align:center;
       border-left:1px solid #fff;
     }
     
-    ul#list-nav li a:hover {
+ul#list-nav li a:hover {
       background:#a2b3a1;
-      color:#000
+      color:#000;
+      box-shadow: 0 0 10px blue;
     }
-    .login{
+.login{
         float: right;
         padding-right: 400px;
         font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        color: blue;
+        transition: all .5s ease;
+    }
+.login a:hover{
+      background-color: white;
+      color: blue;
+      box-shadow: 0 0 10px violet;
+    }
+
+.testing{
+      text-align: left;
+      color: black;
+      display: flex;
+      font-size: x-large;
     }
